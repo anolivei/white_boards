@@ -13,5 +13,5 @@ def duplicate(array):
 
 
 if __name__ == '__main__':
-    array = [1, 5, 3 ,6, 2, 7, 1]
+    array = [1, 5, 3, 6, 2, 7, 1]
     print(duplicate(array))
