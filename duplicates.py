@@ -1,3 +1,17 @@
+"""
+Exercício feito no whiteboard com os
+recrutadores do mercado livre
+
+Foi soilicitado para verificar números duplicados
+em um array de ints
+
+Nessa implementação feita em Python
+provavelmente não daria um timeout
+já que foi utilizado um dicionário,
+sendo necessário percorrer o array
+uma única vez
+"""
+
 from collections import defaultdict
 
 
