@@ -14,7 +14,7 @@ def decompondo():
     max_num = int(input().rstrip("\n"))
     ret = 0
     for i in itertools.product(range(0, max_num + 1), repeat=4):
-        if (sum(i)) == 21:
+        if (sum(i) == 21 and i[0] != 0):
             ret += 1
             # print(i)
             # print(f"{i[0]}{i[1]}{i[2]}{i[3]}")
